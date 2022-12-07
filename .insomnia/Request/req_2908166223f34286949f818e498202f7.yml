@@ -1,0 +1,33 @@
+_id: req_2908166223f34286949f818e498202f7
+type: Request
+parentId: fld_36eb73cbd77e4fb896e251b6af5790b4
+modified: 1670436572007
+created: 1670436514748
+url: localhost:5000/api/v1/admin/tipo-documento
+name: /admin/tipo-documento
+description: ""
+method: GET
+body:
+  mimeType: ""
+  text: |-
+    {
+        "fullName":"Diana Jackeline Rodríguez González",
+        "email":"diana.rodriguezg@habitatbogota.gov.co",
+        "password":"12345678",
+        "empresa":"Habitat",
+        "roles": ["637d0bd3bb9fdf65a8a08c9a"],
+        "verified":true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670436514748
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

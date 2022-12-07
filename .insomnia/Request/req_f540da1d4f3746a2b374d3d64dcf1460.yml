@@ -1,0 +1,31 @@
+_id: req_f540da1d4f3746a2b374d3d64dcf1460
+type: Request
+parentId: fld_1ba6e07cf03147f79575cc1c1e0ed634
+modified: 1670436514734
+created: 1670436514734
+url: localhost:5000/api/v1/admin/dependencia
+name: /admin/dependencia
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "{    \r
+
+    \    \"seqDependencia\": \"1\",\r
+
+    \    \"txtDependencia\": \"1\"\r
+
+    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670436514734
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

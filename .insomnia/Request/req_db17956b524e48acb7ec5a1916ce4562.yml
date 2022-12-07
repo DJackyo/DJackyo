@@ -1,0 +1,31 @@
+_id: req_db17956b524e48acb7ec5a1916ce4562
+type: Request
+parentId: fld_36eb73cbd77e4fb896e251b6af5790b4
+modified: 1670436514745
+created: 1670436514745
+url: localhost:5000/api/v1/admin/tipo-documento
+name: /admin/tipo-documento
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "{    \r
+
+    \    \"seqTipoDocumento\": \"3\",\r
+
+    \    \"txtTipoDocumento\": \"tres\"\r
+
+    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670436514745
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

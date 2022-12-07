@@ -1,0 +1,31 @@
+_id: req_00060adc86d14a41a3b3866854d58fa5
+type: Request
+parentId: fld_c73bfbc0693147af9e19f2d3fc69749b
+modified: 1670436544178
+created: 1670436544178
+url: http://share-dev-test-services-nlb-92b084a5033893e8.elb.us-east-1.amazonaws.com/global-user-management/global-user-management-services/api/v1/credential/login/es
+name: TEST - userType/listar
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "{\r
+
+    \    \"userName\": \"teresa@email.com\",\r
+
+    \    \"password\": \"MTIzNDU=\"\r
+
+    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670436544178
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

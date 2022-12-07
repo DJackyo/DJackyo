@@ -1,0 +1,21 @@
+_id: req_de754225daf04825a19682b8c6367fce
+type: Request
+parentId: fld_47702af6c94a4787918e494515b49f4c
+modified: 1670436544205
+created: 1670436544205
+url: http://{{host}}:{{puerto}}/userType/listar
+name: userType/listar -> Listar tipo usuario
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1670436544205
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

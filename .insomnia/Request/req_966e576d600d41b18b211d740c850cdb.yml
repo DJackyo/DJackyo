@@ -1,0 +1,39 @@
+_id: req_966e576d600d41b18b211d740c850cdb
+type: Request
+parentId: fld_f452de7663f74d4584914529e7aac1e6
+modified: 1670436544244
+created: 1670436544244
+url: http://localhost:8080/role/listRoles
+name: /role/listRoles
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "{\r
+
+    \    \"name\": \"\",\r
+
+    \    \"idBusinessGroup\": \"\",\r
+
+    \    \"active\": \"\",\r
+
+    \    \"isStandard\": \"\",\r
+
+    \    \"roleId\": \"\",\r
+
+    \    \"productId\": 1\r
+
+    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670436544244
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

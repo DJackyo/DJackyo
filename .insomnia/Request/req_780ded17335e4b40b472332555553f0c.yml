@@ -1,0 +1,31 @@
+_id: req_780ded17335e4b40b472332555553f0c
+type: Request
+parentId: fld_1ba6e07cf03147f79575cc1c1e0ed634
+modified: 1670436514730
+created: 1670436514730
+url: localhost:5000/api/v1/admin/dependencia/63850383632e4643ece73b25
+name: /admin/dependencia
+description: ""
+method: PUT
+body:
+  mimeType: ""
+  text: "{    \r
+
+    \    \"seqTipoDocumento\": \"3\",\r
+
+    \    \"txtTipoDocumento\": \"tres-editado\"\r
+
+    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670436514730
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

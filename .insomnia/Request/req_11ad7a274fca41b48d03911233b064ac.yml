@@ -1,0 +1,31 @@
+_id: req_11ad7a274fca41b48d03911233b064ac
+type: Request
+parentId: fld_369849ee750942ca816bab455efaf015
+modified: 1670436544255
+created: 1670436544255
+url: http://localhost:8080/credential/validate
+name: credential/validate
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "{\r
+
+    \    \"userName\" : \"teresa@email.com\",\r
+
+    \    \"password\" : \"MTIzNDU=\"\r
+
+    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670436544255
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

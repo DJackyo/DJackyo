@@ -1,0 +1,39 @@
+_id: req_2005807fcc3549de9d967756ed1c9d08
+type: Request
+parentId: fld_1ba6e07cf03147f79575cc1c1e0ed634
+modified: 1670436514736
+created: 1670436514736
+url: localhost:5000/api/v1/admin/dependencia
+name: /admin/dependencia
+description: ""
+method: GET
+body:
+  mimeType: ""
+  text: "{\r
+
+    \    \"fullName\":\"Diana Jackeline Rodríguez González\",\r
+
+    \    \"email\":\"diana.rodriguezg@habitatbogota.gov.co\",\r
+
+    \    \"password\":\"12345678\",\r
+
+    \    \"empresa\":\"Habitat\",\r
+
+    \    \"roles\": [\"637d0bd3bb9fdf65a8a08c9a\"],\r
+
+    \    \"verified\":true\r
+
+    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670436514736
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

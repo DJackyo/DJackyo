@@ -1,0 +1,37 @@
+_id: req_09f75280b46f4c1b8fa0412781bb63c3
+type: Request
+parentId: fld_f452de7663f74d4584914529e7aac1e6
+modified: 1670436544239
+created: 1670436544239
+url: http://localhost:8080/role/save
+name: role/save
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "{\r
+
+    \    \"idBusinessGroup\": 3,\r
+
+    \    \"name\": \"Rol de jack_gg0\",\r
+
+    \    \"isStandard\": true,\r
+
+    \    \"description\": \"Rol de jack\",\r
+
+    \    \"idUserType\": 6\r
+
+    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670436544239
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,31 @@
+_id: req_4b774396fa9d4b31b8e7cb50de75cc8e
+type: Request
+parentId: fld_47702af6c94a4787918e494515b49f4c
+modified: 1670436544190
+created: 1670436544190
+url: http://{{host}}:{{puerto}}/credential/validate
+name: http://{{host}}:{{puerto}}/credential/validate
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "{\r
+
+    \    \"userName\": \"teresa@email.com\",\r
+
+    \    \"password\": \"MTIzNDU=\"\r
+
+    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670436544190
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

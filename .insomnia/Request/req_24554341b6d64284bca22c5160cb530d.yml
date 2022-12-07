@@ -1,0 +1,61 @@
+_id: req_24554341b6d64284bca22c5160cb530d
+type: Request
+parentId: fld_c3a7e2c4cac54ee3bd7b5a2866b55fce
+modified: 1670436514759
+created: 1670436514759
+url: localhost:5000/api/v1/admin/usuarios
+name: /admin/users
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "{\r
+
+    \    \"seqUsuario\": \"67\",\r
+
+    \    \"seqTipoDocumento\": \"6385037c632e4643ece73b21\",\r
+
+    \    \"numDocumento\": 71109810,\r
+
+    \    \"txtNombres\": \"123456\",\r
+
+    \    \"txtApellidos\": \"654321\",\r
+
+    \    \"txtCorreo\": \"ttt@tt.t\",\r
+
+    \    \"txtMatricula\": \"ytr\",\r
+
+    \    \"txtUsuario\": \"yrt\",\r
+
+    \    \"txtContrasena\": \"ytr\",\r
+
+    \    \"numContrato\": \"yrt\",\r
+
+    \    \"fchInicioContrato\": \"2022/12/01\",\r
+
+    \    \"fchFinContrato\": \"2022-12-01\",\r
+
+    \    \"seqDependencia\": \"trtr\",\r
+
+    \    \"bolEstado\": true,\r
+
+    \    \"numVigencia\": 123,\r
+
+    \    \"fchActivacion\": \"2022-12-01\",\r
+
+    \    \"fchCreacion\": \"2022-12-01\"\r
+
+    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670436514759
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

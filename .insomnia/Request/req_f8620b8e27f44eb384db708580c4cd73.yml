@@ -1,0 +1,21 @@
+_id: req_f8620b8e27f44eb384db708580c4cd73
+type: Request
+parentId: fld_c5cda37de3494a209fa9a18e8dc6d75e
+modified: 1670436544221
+created: 1670436544221
+url: http://{{host}}:{{puerto}}/module/listar
+name: module/listar -> Listar productos
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1670436544221
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

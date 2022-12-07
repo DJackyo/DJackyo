@@ -1,0 +1,16 @@
+_id: env_8feda2c82abb42faa2654ddd3f21c4bb
+type: Environment
+parentId: env_bfc59b71bc0233b0aa29b41badc5d6a6125f6f5e
+modified: 1670425901443
+created: 1670425814061
+name: SDH
+data:
+  host: localhost
+  port: 5000
+dataPropertyOrder:
+  "&":
+    - host
+    - port
+color: "#2eb8b5"
+isPrivate: false
+metaSortKey: 1670425814061

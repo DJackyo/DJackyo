@@ -1,0 +1,31 @@
+_id: req_d35c687aeefc4abeb1244da3be9c2f7c
+type: Request
+parentId: fld_6f2995a5e3f243f0bdb3e083e2d0e62d
+modified: 1670436544266
+created: 1670436544266
+url: localhost:8080/megamenu/listByRole
+name: megamenu/listByRole
+description: ""
+method: GET
+body:
+  mimeType: ""
+  text: "{\r
+
+    \    \"userName\" : \"juan@a.com\",\r
+
+    \    \"password\" : \"123\"\r
+
+    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670436544266
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

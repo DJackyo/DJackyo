@@ -1,0 +1,25 @@
+_id: req_09812e83eca0499e84cdf52ee0ff6914
+type: Request
+parentId: fld_f4141a60e35a42e39dbc28d853d913bf
+modified: 1670436514717
+created: 1670436514717
+url: localhost:5000/api/v1/Rol
+name: v1/Rol
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "{\r\n    \"name\":\"admin\"\r\n}"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670436514717
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

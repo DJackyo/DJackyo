@@ -1,0 +1,16 @@
+_id: env_d427d47245304398b0b462a75c39f5aa
+type: Environment
+parentId: env_bfc59b71bc0233b0aa29b41badc5d6a6125f6f5e
+modified: 1670425891426
+created: 1670425860154
+name: Macrositio
+data:
+  host: localhost
+  port: 8000
+dataPropertyOrder:
+  "&":
+    - host
+    - port
+color: "#994ac4"
+isPrivate: false
+metaSortKey: 1670425860154

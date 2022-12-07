@@ -1,0 +1,11 @@
+_id: fld_c73bfbc0693147af9e19f2d3fc69749b
+type: RequestGroup
+parentId: wrk_3b91cf0738cc4de1bcdf6e3d3394655f
+modified: 1670436544273
+created: 1670436544273
+name: Macrositio
+description: ""
+environment:
+  token: eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJDYXJ2YWphbCIsInN1YiI6IkpXVCBUb2tlbiIsInVzZXJuYW1lIjoidGVyZXNhQGVtYWlsLmNvbSIsImlhdCI6MTY2OTE1MDk5OCwiZXhwIjoxNjY5MTgwOTk4fQ.M_1ZHrQc_5oxhneBzl1XJrFLNqt1flpD0nn1lZvBNoE
+environmentPropertyOrder: null
+metaSortKey: -1670436544273
