@@ -1,9 +1,9 @@
 _id: req_f8620b8e27f44eb384db708580c4cd73
 type: Request
 parentId: fld_c5cda37de3494a209fa9a18e8dc6d75e
-modified: 1670436544221
+modified: 1670970432364
 created: 1670436544221
-url: http://{{host}}:{{puerto}}/module/listar
+url: "{{ _.prot }}://{{ _.host }}/module/listar"
 name: module/listar -> Listar productos
 description: ""
 method: GET

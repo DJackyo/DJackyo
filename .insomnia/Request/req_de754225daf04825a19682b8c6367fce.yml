@@ -1,9 +1,9 @@
 _id: req_de754225daf04825a19682b8c6367fce
 type: Request
 parentId: fld_47702af6c94a4787918e494515b49f4c
-modified: 1670436544205
+modified: 1670970459185
 created: 1670436544205
-url: http://{{host}}:{{puerto}}/userType/listar
+url: "{{ _.prot }}://{{ _.host }}/userType/listar"
 name: userType/listar -> Listar tipo usuario
 description: ""
 method: GET

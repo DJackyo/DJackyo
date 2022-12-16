@@ -1,15 +1,19 @@
 _id: req_b3398e815a9347f9b2e7e3012341a67c
 type: Request
 parentId: fld_f452de7663f74d4584914529e7aac1e6
-modified: 1670436544247
+modified: 1670970378576
 created: 1670436544247
-url: http://localhost:8080/role/listInternalRoles
+url: "{{ _.prot }}://{{ _.host }}/role/listInternalRoles"
 name: /role/listInternalRoles
 description: ""
 method: GET
 body: {}
 parameters: []
-headers: []
+headers:
+  - id: pair_87a3a9fc74cb47f9a070c7d17fc50a75
+    name: Authorization
+    value: eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJDYXJ2YWphbCIsInN1YiI6IkpXVCBUb2tlbiIsInVzZXJuYW1lIjoiVGVyZXNhIE1lbmRvemEiLCJtYWlsIjoidGVyZXNhQGVtYWlsLmNvbSIsImlkVXNlciI6MywiaWRDb21wYW55IjoiMSIsImNvbXBhbnkiOiJDb21wYW55IDEiLCJpYXQiOjE2NzA5NDAxNjAsImV4cCI6MTY3MDk3MDE2MH0.YQKLFvYRod7vMhWKNPpQCtDAh6vKP4f7ZeHWLBLyaX4
+    description: ""
 authentication: {}
 metaSortKey: -1670436544247
 isPrivate: false

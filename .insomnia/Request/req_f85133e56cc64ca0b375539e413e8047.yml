@@ -1,15 +1,24 @@
 _id: req_f85133e56cc64ca0b375539e413e8047
 type: Request
 parentId: fld_c5cda37de3494a209fa9a18e8dc6d75e
-modified: 1670436544213
+modified: 1671033739520
 created: 1670436544213
-url: http://{{host}}:{{puerto}}/option/listTransversalOptions
+url: "{{ _.prot }}://{{ _.host }}/option/listTransversalOptions"
 name: /option/listTransversalOptions
 description: ""
 method: GET
-body: {}
+body:
+  mimeType: application/json
+  text: ""
 parameters: []
-headers: []
+headers:
+  - id: pair_e479b7f9adce49e4a3e6d44c8e93b811
+    name: Authorization
+    value: eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJDYXJ2YWphbCIsInN1YiI6IkpXVCBUb2tlbiIsInVzZXJuYW1lIjoiVGVyZXNhIE1lbmRvemEiLCJtYWlsIjoidGVyZXNhQGVtYWlsLmNvbSIsImlkVXNlciI6MywiaWRDb21wYW55IjoiMSIsImNvbXBhbnkiOiJDb21wYW55IDEiLCJpYXQiOjE2NzEwMzM0MjUsImV4cCI6MTY3MTA2MzQyNX0.iOGXO95L1AdrDGlYWIo0cEhCg1WTKXyIWAsuHgTDtqI
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_f74b9c14b0d44eeebc38feec39356fab
 authentication: {}
 metaSortKey: -1670436544213
 isPrivate: false

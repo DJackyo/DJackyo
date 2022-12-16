@@ -1,1299 +1,665 @@
 _id: req_bef3daa8af0a46deaaff19d3073f0d83
 type: Request
 parentId: fld_e6bd2d2d98884f638e65f6e70c92ec44
-modified: 1670436544226
+modified: 1671140169045
 created: 1670436544226
-url: http://localhost:8080/role/save/rolePermission
-name: save/rolePermission
+url: "{{ _.prot }}://{{ _.host }}/role/save/rolePermission"
+name: save/rolePermission - Miguel
 description: ""
 method: PUT
 body:
   mimeType: ""
-  text: "{\r
-
-    \    \"roleId\": \"75\",\r
-
-    \    \"roleOptions\": [\r
-
-    \        {\r
-
-    \            \"idOption\": 131,\r
-
-    \            \"path\": \"11.\",\r
-
-    \            \"idModule\": 3,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 156,\r
-
-    \            \"path\": \"11.2.\",\r
-
-    \            \"idModule\": 3,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 196,\r
-
-    \            \"path\": \"11.2.1.\",\r
-
-    \            \"idModule\": 3,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 198,\r
-
-    \            \"path\": \"11.2.3.\",\r
-
-    \            \"idModule\": 3,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 197,\r
-
-    \            \"path\": \"11.2.2.\",\r
-
-    \            \"idModule\": 3,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 155,\r
-
-    \            \"path\": \"11.1.\",\r
-
-    \            \"idModule\": 3,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 195,\r
-
-    \            \"path\": \"11.1.6.\",\r
-
-    \            \"idModule\": 3,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 191,\r
-
-    \            \"path\": \"11.1.2.\",\r
-
-    \            \"idModule\": 3,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 194,\r
-
-    \            \"path\": \"11.1.5.\",\r
-
-    \            \"idModule\": 3,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 193,\r
-
-    \            \"path\": \"11.1.4.\",\r
-
-    \            \"idModule\": 3,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 190,\r
-
-    \            \"path\": \"11.1.1.\",\r
-
-    \            \"idModule\": 3,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 192,\r
-
-    \            \"path\": \"11.1.3.\",\r
-
-    \            \"idModule\": 3,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 157,\r
-
-    \            \"path\": \"11.3.\",\r
-
-    \            \"idModule\": 3,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 199,\r
-
-    \            \"path\": \"11.3.1.\",\r
-
-    \            \"idModule\": 3,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 130,\r
-
-    \            \"path\": \"10.\",\r
-
-    \            \"idModule\": 2,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 154,\r
-
-    \            \"path\": \"10.1.\",\r
-
-    \            \"idModule\": 2,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 186,\r
-
-    \            \"path\": \"10.1.1.\",\r
-
-    \            \"idModule\": 2,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 187,\r
-
-    \            \"path\": \"10.1.2.\",\r
-
-    \            \"idModule\": 2,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 189,\r
-
-    \            \"path\": \"10.1.4.\",\r
-
-    \            \"idModule\": 2,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 188,\r
-
-    \            \"path\": \"10.1.3.\",\r
-
-    \            \"idModule\": 2,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 132,\r
-
-    \            \"path\": \"12.\",\r
-
-    \            \"idModule\": 7,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 128,\r
-
-    \            \"path\": \"8.\",\r
-
-    \            \"idModule\": 14,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 150,\r
-
-    \            \"path\": \"8.1.\",\r
-
-    \            \"idModule\": 14,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 201,\r
-
-    \            \"path\": \"8.1.1.\",\r
-
-    \            \"idModule\": 14,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 152,\r
-
-    \            \"path\": \"8.3.\",\r
-
-    \            \"idModule\": 14,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 203,\r
-
-    \            \"path\": \"8.3.1.\",\r
-
-    \            \"idModule\": 14,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 151,\r
-
-    \            \"path\": \"8.2.\",\r
-
-    \            \"idModule\": 14,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 202,\r
-
-    \            \"path\": \"8.2.1.\",\r
-
-    \            \"idModule\": 14,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 121,\r
-
-    \            \"path\": \"1.\",\r
-
-    \            \"idModule\": 15,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 145,\r
-
-    \            \"path\": \"1.6.\",\r
-
-    \            \"idModule\": 15,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 176,\r
-
-    \            \"path\": \"1.6.1.\",\r
-
-    \            \"idModule\": 15,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 137,\r
-
-    \            \"path\": \"1.2.\",\r
-
-    \            \"idModule\": 15,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 163,\r
-
-    \            \"path\": \"1.2.3.\",\r
-
-    \            \"idModule\": 15,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 164,\r
-
-    \            \"path\": \"1.2.2.\",\r
-
-    \            \"idModule\": 15,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 162,\r
-
-    \            \"path\": \"1.2.1.\",\r
-
-    \            \"idModule\": 15,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 146,\r
-
-    \            \"path\": \"1.7.\",\r
-
-    \            \"idModule\": 15,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 177,\r
-
-    \            \"path\": \"1.7.1.\",\r
-
-    \            \"idModule\": 15,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 133,\r
-
-    \            \"path\": \"1.1.\",\r
-
-    \            \"idModule\": 15,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 200,\r
-
-    \            \"path\": \"1.1.1.\",\r
-
-    \            \"idModule\": 15,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 138,\r
-
-    \            \"path\": \"1.3.\",\r
-
-    \            \"idModule\": 15,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 165,\r
-
-    \            \"path\": \"1.3.1.\",\r
-
-    \            \"idModule\": 15,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 148,\r
-
-    \            \"path\": \"1.9.\",\r
-
-    \            \"idModule\": 15,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 179,\r
-
-    \            \"path\": \"1.9.1.\",\r
-
-    \            \"idModule\": 15,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 140,\r
-
-    \            \"path\": \"1.4.\",\r
-
-    \            \"idModule\": 15,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 167,\r
-
-    \            \"path\": \"1.4.1.\",\r
-
-    \            \"idModule\": 15,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 168,\r
-
-    \            \"path\": \"1.4.2.\",\r
-
-    \            \"idModule\": 15,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 149,\r
-
-    \            \"path\": \"1.10.\",\r
-
-    \            \"idModule\": 15,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 181,\r
-
-    \            \"path\": \"1.10.2.\",\r
-
-    \            \"idModule\": 15,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 180,\r
-
-    \            \"path\": \"1.10.1.\",\r
-
-    \            \"idModule\": 15,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 147,\r
-
-    \            \"path\": \"1.8.\",\r
-
-    \            \"idModule\": 15,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 178,\r
-
-    \            \"path\": \"1.8.1.\",\r
-
-    \            \"idModule\": 15,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 144,\r
-
-    \            \"path\": \"1.5.\",\r
-
-    \            \"idModule\": 15,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        },\r
-
-    \        {\r
-
-    \            \"idOption\": 175,\r
-
-    \            \"path\": \"1.5.1.\",\r
-
-    \            \"idModule\": 15,\r
-
-    \            \"denyAcces\": false,\r
-
-    \            \"allowReadImplemented\": true,\r
-
-    \            \"allowCreateImplemented\": true,\r
-
-    \            \"allowUpdateImplemented\": true,\r
-
-    \            \"allowDeleteImplemented\": true,\r
-
-    \            \"allowExportImplemented\": true,\r
-
-    \            \"allowPrintImplemented\": true\r
-
-    \        }\r
-
-    \    ]\r
-
-    }"
+  text: |-
+    {
+        "roleId": "33",
+        "roleOptions": [
+            {
+                "idOption": 131,
+                "path": "11.",
+                "idModule": 3,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 156,
+                "path": "11.2.",
+                "idModule": 3,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 196,
+                "path": "11.2.1.",
+                "idModule": 3,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 198,
+                "path": "11.2.3.",
+                "idModule": 3,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 197,
+                "path": "11.2.2.",
+                "idModule": 3,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 155,
+                "path": "11.1.",
+                "idModule": 3,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 195,
+                "path": "11.1.6.",
+                "idModule": 3,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 191,
+                "path": "11.1.2.",
+                "idModule": 3,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 194,
+                "path": "11.1.5.",
+                "idModule": 3,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 193,
+                "path": "11.1.4.",
+                "idModule": 3,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 190,
+                "path": "11.1.1.",
+                "idModule": 3,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 192,
+                "path": "11.1.3.",
+                "idModule": 3,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 157,
+                "path": "11.3.",
+                "idModule": 3,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 199,
+                "path": "11.3.1.",
+                "idModule": 3,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 130,
+                "path": "10.",
+                "idModule": 2,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 154,
+                "path": "10.1.",
+                "idModule": 2,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 186,
+                "path": "10.1.1.",
+                "idModule": 2,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 187,
+                "path": "10.1.2.",
+                "idModule": 2,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 189,
+                "path": "10.1.4.",
+                "idModule": 2,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 188,
+                "path": "10.1.3.",
+                "idModule": 2,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 132,
+                "path": "12.",
+                "idModule": 7,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 128,
+                "path": "8.",
+                "idModule": 14,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 150,
+                "path": "8.1.",
+                "idModule": 14,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 201,
+                "path": "8.1.1.",
+                "idModule": 14,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 152,
+                "path": "8.3.",
+                "idModule": 14,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 203,
+                "path": "8.3.1.",
+                "idModule": 14,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 151,
+                "path": "8.2.",
+                "idModule": 14,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 202,
+                "path": "8.2.1.",
+                "idModule": 14,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 121,
+                "path": "1.",
+                "idModule": 15,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 145,
+                "path": "1.6.",
+                "idModule": 15,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 176,
+                "path": "1.6.1.",
+                "idModule": 15,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 137,
+                "path": "1.2.",
+                "idModule": 15,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 163,
+                "path": "1.2.3.",
+                "idModule": 15,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 164,
+                "path": "1.2.2.",
+                "idModule": 15,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 162,
+                "path": "1.2.1.",
+                "idModule": 15,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 146,
+                "path": "1.7.",
+                "idModule": 15,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 177,
+                "path": "1.7.1.",
+                "idModule": 15,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 133,
+                "path": "1.1.",
+                "idModule": 15,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 200,
+                "path": "1.1.1.",
+                "idModule": 15,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 138,
+                "path": "1.3.",
+                "idModule": 15,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 165,
+                "path": "1.3.1.",
+                "idModule": 15,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 148,
+                "path": "1.9.",
+                "idModule": 15,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 179,
+                "path": "1.9.1.",
+                "idModule": 15,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 140,
+                "path": "1.4.",
+                "idModule": 15,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 167,
+                "path": "1.4.1.",
+                "idModule": 15,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 168,
+                "path": "1.4.2.",
+                "idModule": 15,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 149,
+                "path": "1.10.",
+                "idModule": 15,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 181,
+                "path": "1.10.2.",
+                "idModule": 15,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 180,
+                "path": "1.10.1.",
+                "idModule": 15,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 147,
+                "path": "1.8.",
+                "idModule": 15,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 178,
+                "path": "1.8.1.",
+                "idModule": 15,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 144,
+                "path": "1.5.",
+                "idModule": 15,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            },
+            {
+                "idOption": 175,
+                "path": "1.5.1.",
+                "idModule": 15,
+                "denyAcces": false,
+                "allowReadImplemented": true,
+                "allowCreateImplemented": true,
+                "allowUpdateImplemented": true,
+                "allowDeleteImplemented": true,
+                "allowExportImplemented": true,
+                "allowPrintImplemented": true
+            }
+        ]
+    }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_efd9b02e0c484c4b8ea9c72c23f147c3
+  - id: pair_34695a40f28447a093acdb768c6e0706
+    name: Authorization
+    value: eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJDYXJ2YWphbCIsInN1YiI6IkpXVCBUb2tlbiIsInVzZXJuYW1lIjoiVGVyZXNhIE1lbmRvemEiLCJtYWlsIjoidGVyZXNhQGVtYWlsLmNvbSIsImlkVXNlciI6MywiaWRDb21wYW55IjoiMSIsImNvbXBhbnkiOiJDb21wYW55IDEiLCJpYXQiOjE2NzExMzIyNDUsImV4cCI6MTY3MTE2MjI0NX0.LLehYpDwIX_xBAgXkjQQ02EElJ0AmlVeynTTfbdKBA0
+    description: ""
 authentication: {}
 metaSortKey: -1670436544226
 isPrivate: false

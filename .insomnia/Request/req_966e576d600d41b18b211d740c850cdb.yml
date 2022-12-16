@@ -1,33 +1,31 @@
 _id: req_966e576d600d41b18b211d740c850cdb
 type: Request
 parentId: fld_f452de7663f74d4584914529e7aac1e6
-modified: 1670436544244
+modified: 1671139661995
 created: 1670436544244
-url: http://localhost:8080/role/listRoles
-name: /role/listRoles
+url: "{{ _.prot }}://{{ _.host }}/role/listRoles"
+name: /role/listRoles - Juan
 description: ""
 method: POST
 body:
-  mimeType: ""
-  text: "{\r
-
-    \    \"name\": \"\",\r
-
-    \    \"idBusinessGroup\": \"\",\r
-
-    \    \"active\": \"\",\r
-
-    \    \"isStandard\": \"\",\r
-
-    \    \"roleId\": \"\",\r
-
-    \    \"productId\": 1\r
-
-    }"
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "",
+    	"active": true,
+    	"idBusinessGroup": 3,
+    	"isStandard": "",
+    	"productId": ""
+    }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_75bdeadfba8147b8971d3c1a31330714
+  - id: pair_d40fcb6b49bf444892482efc42682340
+    name: Authorization
+    value: eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJDYXJ2YWphbCIsInN1YiI6IkpXVCBUb2tlbiIsInVzZXJuYW1lIjoiVGVyZXNhIE1lbmRvemEiLCJtYWlsIjoidGVyZXNhQGVtYWlsLmNvbSIsImlkVXNlciI6MywiaWRDb21wYW55IjoiMSIsImNvbXBhbnkiOiJDb21wYW55IDEiLCJpYXQiOjE2NzExMzIyNDUsImV4cCI6MTY3MTE2MjI0NX0.LLehYpDwIX_xBAgXkjQQ02EElJ0AmlVeynTTfbdKBA0
+    description: ""
 authentication: {}
 metaSortKey: -1670436544244
 isPrivate: false

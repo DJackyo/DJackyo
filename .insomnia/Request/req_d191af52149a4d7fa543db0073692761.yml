@@ -1,9 +1,9 @@
 _id: req_d191af52149a4d7fa543db0073692761
 type: Request
 parentId: fld_f452de7663f74d4584914529e7aac1e6
-modified: 1670436544241
+modified: 1670970394952
 created: 1670436544241
-url: http://localhost:8080/role/deleteRole/71
+url: "{{ _.prot }}://{{ _.host }}/role/deleteRole/33"
 name: role/deleteRole/id
 description: ""
 method: DELETE

@@ -1,43 +1,37 @@
 _id: req_e64d0939e4dc408ab43610db6d8fa17f
 type: Request
 parentId: fld_f452de7663f74d4584914529e7aac1e6
-modified: 1670436544236
+modified: 1671136945809
 created: 1670436544236
-url: http://localhost:8080/role/save
-name: role/save
+url: "{{ _.prot }}://{{ _.host }}/role/save"
+name: role/save - Carlos
 description: ""
 method: PUT
 body:
   mimeType: ""
-  text: "{\r
-
-    \  \"roleId\": 104,\r
-
-    \  \"creationDate\": \"2022-12-06\",\r
-
-    \  \"idUserType\": 6,\r
-
-    \  \"nameUsertype\": \"Cliente\",\r
-
-    \  \"name\": \"pppp 104\",\r
-
-    \  \"description\": \"ppppp\",\r
-
-    \  \"idBusinessGroup\": 3,\r
-
-    \  \"nameBussinesGroup\": \"Grupo 1\",\r
-
-    \  \"activeBussinesGroup\": true,\r
-
-    \  \"active\": true,\r
-
-    \  \"isStandard\": false\r
-
-    }"
+  text: |-
+    {
+    	"roleId": 106,
+    	"creationDate": "2022-12-12",
+    	"idUserType": 6,
+    	"nameUsertype": "Cliente",
+    	"name": "grupmmo2n",
+    	"description": "ppppp",
+    	"idBusinessGroup": 3,
+    	"nameBussinesGroup": "Grupo 1",
+    	"activeBussinesGroup": true,
+    	"active": true,
+    	"isStandard": false
+    }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_d6fbcb3a67794a89bc8a495161d71e47
+  - id: pair_dfd0492b3d1f4749a72845481074165f
+    name: Authorization
+    value: eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJDYXJ2YWphbCIsInN1YiI6IkpXVCBUb2tlbiIsInVzZXJuYW1lIjoiVGVyZXNhIE1lbmRvemEiLCJtYWlsIjoidGVyZXNhQGVtYWlsLmNvbSIsImlkVXNlciI6MywiaWRDb21wYW55IjoiMSIsImNvbXBhbnkiOiJDb21wYW55IDEiLCJpYXQiOjE2NzExMzIyNDUsImV4cCI6MTY3MTE2MjI0NX0.LLehYpDwIX_xBAgXkjQQ02EElJ0AmlVeynTTfbdKBA0
+    description: ""
 authentication: {}
 metaSortKey: -1670436544236
 isPrivate: false

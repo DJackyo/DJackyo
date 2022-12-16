@@ -1,15 +1,19 @@
 _id: req_de40ecc47a92431b87bbc66054374489
 type: Request
 parentId: fld_77c5c4c5fcfe445981fc0b9e10c53ab0
-modified: 1670436544182
+modified: 1670970575766
 created: 1670436544182
-url: http://{{host}}:{{puerto}}/businessgroup/listar
-name: /businessgroup/listar
+url: "{{ _.prot }}://{{ _.host }}/businessGroup/listar"
+name: /businessgroup/listar - Carlos
 description: ""
 method: GET
 body: {}
 parameters: []
-headers: []
+headers:
+  - id: pair_910bd6a223004671a055842de327981f
+    name: Authorization
+    value: eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJDYXJ2YWphbCIsInN1YiI6IkpXVCBUb2tlbiIsInVzZXJuYW1lIjoiVGVyZXNhIE1lbmRvemEiLCJtYWlsIjoidGVyZXNhQGVtYWlsLmNvbSIsImlkVXNlciI6MywiaWRDb21wYW55IjoiMSIsImNvbXBhbnkiOiJDb21wYW55IDEiLCJpYXQiOjE2NzA5NDAxNjAsImV4cCI6MTY3MDk3MDE2MH0.YQKLFvYRod7vMhWKNPpQCtDAh6vKP4f7ZeHWLBLyaX4
+    description: ""
 authentication: {}
 metaSortKey: -1670436544182
 isPrivate: false

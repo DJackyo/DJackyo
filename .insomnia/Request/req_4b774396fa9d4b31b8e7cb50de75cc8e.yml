@@ -1,25 +1,28 @@
 _id: req_4b774396fa9d4b31b8e7cb50de75cc8e
 type: Request
 parentId: fld_47702af6c94a4787918e494515b49f4c
-modified: 1670436544190
+modified: 1670970548711
 created: 1670436544190
-url: http://{{host}}:{{puerto}}/credential/validate
+url: "{{ _.prot }}://{{ _.host }}/credential/validate"
 name: http://{{host}}:{{puerto}}/credential/validate
 description: ""
 method: POST
 body:
-  mimeType: ""
-  text: "{\r
-
-    \    \"userName\": \"teresa@email.com\",\r
-
-    \    \"password\": \"MTIzNDU=\"\r
-
-    }"
+  mimeType: application/json
+  text: |-
+    {
+        "userName": "teresa@email.com",
+        "password": "MTIzNDU="
+    }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_293667c3f1b04accaafa925519d48b90
+  - id: pair_763641cb69ed43ae898a66cbce1866b4
+    name: Authorization
+    value: dfgdfgdf
+    description: ""
 authentication: {}
 metaSortKey: -1670436544190
 isPrivate: false

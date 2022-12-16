@@ -1,31 +1,31 @@
 _id: req_09f75280b46f4c1b8fa0412781bb63c3
 type: Request
 parentId: fld_f452de7663f74d4584914529e7aac1e6
-modified: 1670436544239
+modified: 1671135567067
 created: 1670436544239
-url: http://localhost:8080/role/save
-name: role/save
+url: "{{ _.prot }}://{{ _.host }}/role/save"
+name: role/save - Carlos
 description: ""
 method: POST
 body:
   mimeType: ""
-  text: "{\r
-
-    \    \"idBusinessGroup\": 3,\r
-
-    \    \"name\": \"Rol de jack_gg0\",\r
-
-    \    \"isStandard\": true,\r
-
-    \    \"description\": \"Rol de jack\",\r
-
-    \    \"idUserType\": 6\r
-
-    }"
+  text: |-
+    {
+        "idBusinessGroup": 3,
+        "name": "Rol de jack_g_g0",
+        "isStandard": true,
+        "description": "Rol de jack",
+        "idUserType": 6
+    }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_50a0e731d9754a74be376f3c4fa2cb2e
+  - id: pair_99803ff465db48508189275c609e6a45
+    name: Authorization
+    value: eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJDYXJ2YWphbCIsInN1YiI6IkpXVCBUb2tlbiIsInVzZXJuYW1lIjoiVGVyZXNhIE1lbmRvemEiLCJtYWlsIjoidGVyZXNhQGVtYWlsLmNvbSIsImlkVXNlciI6MywiaWRDb21wYW55IjoiMSIsImNvbXBhbnkiOiJDb21wYW55IDEiLCJpYXQiOjE2NzExMzIyNDUsImV4cCI6MTY3MTE2MjI0NX0.LLehYpDwIX_xBAgXkjQQ02EElJ0AmlVeynTTfbdKBA0
+    description: ""
 authentication: {}
 metaSortKey: -1670436544239
 isPrivate: false

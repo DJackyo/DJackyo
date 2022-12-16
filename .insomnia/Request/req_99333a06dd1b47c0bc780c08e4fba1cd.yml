@@ -1,9 +1,9 @@
 _id: req_99333a06dd1b47c0bc780c08e4fba1cd
 type: Request
 parentId: fld_47702af6c94a4787918e494515b49f4c
-modified: 1670436544192
+modified: 1670970499914
 created: 1670436544192
-url: http://{{host}}:{{puerto}}/usuario/buscarEmail/teresa@email.com
+url: "{{ _.prot }}://{{ _.host }}/usuario/buscarEmail/teresa@email.com"
 name: http://{{host}}:{{puerto}}/usuario/buscarEmail/teresa@email.com
 description: ""
 method: GET

@@ -1,18 +1,20 @@
-_id: env_d427d47245304398b0b462a75c39f5aa
+_id: env_911bced6fb044c7babf5ec641752d7af
 type: Environment
 parentId: env_bfc59b71bc0233b0aa29b41badc5d6a6125f6f5e
-modified: 1670970340416
-created: 1670425860154
-name: Macrositio
+modified: 1671025341059
+created: 1670970134898
+name: Macrositio-Test
 data:
-  prot: http
-  host: localhost:8080
+  prot: https
+  host: nrermwvppi.execute-api.us-east-1.amazonaws.com/test/global-user-management-services/api/v1
+  port: 8080
   token: eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJDYXJ2YWphbCIsInN1YiI6IkpXVCBUb2tlbiIsInVzZXJuYW1lIjoiVGVyZXNhIE1lbmRvemEiLCJtYWlsIjoidGVyZXNhQGVtYWlsLmNvbSIsImlkVXNlciI6MywiaWRDb21wYW55IjoiMSIsImNvbXBhbnkiOiJDb21wYW55IDEiLCJpYXQiOjE2NzA5NDAxNjAsImV4cCI6MTY3MDk3MDE2MH0.YQKLFvYRod7vMhWKNPpQCtDAh6vKP4f7ZeHWLBLyaX4
 dataPropertyOrder:
   "&":
     - prot
     - host
+    - port
     - token
-color: "#994ac4"
+color: "#4c4ac4"
 isPrivate: false
-metaSortKey: 1670425860154
+metaSortKey: 1670425860204
