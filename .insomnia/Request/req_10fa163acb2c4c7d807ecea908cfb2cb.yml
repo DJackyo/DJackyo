@@ -1,10 +1,10 @@
-_id: req_f85133e56cc64ca0b375539e413e8047
+_id: req_10fa163acb2c4c7d807ecea908cfb2cb
 type: Request
 parentId: fld_c5cda37de3494a209fa9a18e8dc6d75e
-modified: 1671494016867
-created: 1670436544213
-url: "{{ _.prot }}://{{ _.host }}/option/listTransversalOptions"
-name: /option/listTransversalOptions
+modified: 1671485224682
+created: 1671485153903
+url: "{{ _.prot }}://{{ _.host }}/option/listUserPermissions/3"
+name: /option/listUserPermissions/3
 description: ""
 method: GET
 body:
@@ -12,15 +12,14 @@ body:
   text: ""
 parameters: []
 headers:
-  - id: pair_e479b7f9adce49e4a3e6d44c8e93b811
+  - id: pair_fa2f468dcb8a48f2babf280d5bc1306d
     name: Authorization
     value: eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJDYXJ2YWphbCIsInN1YiI6IkpXVCBUb2tlbiIsInVzZXJuYW1lIjoiVGVyZXNhIE1lbmRvemEiLCJtYWlsIjoidGVyZXNhQGVtYWlsLmNvbSIsImlkVXNlciI6MywiaWRDb21wYW55IjoiMSIsImNvbXBhbnkiOiJDb21wYW55IDEiLCJpYXQiOjE2NzE0ODE5NzksImV4cCI6MTY3MTUxMTk3OX0.jevy4kGPaQa1Jxf13XZUbc6m2eiq097G50ZRDv-aiu4
     description: ""
   - name: Content-Type
     value: application/json
-    id: pair_f74b9c14b0d44eeebc38feec39356fab
 authentication: {}
-metaSortKey: -1670436544213
+metaSortKey: -1670436544161
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

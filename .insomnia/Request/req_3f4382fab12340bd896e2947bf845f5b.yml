@@ -1,7 +1,7 @@
 _id: req_3f4382fab12340bd896e2947bf845f5b
 type: Request
 parentId: fld_33445364a5604a518644348e0b85b916
-modified: 1670859601411
+modified: 1671672268613
 created: 1670436514723
 url: localhost:5000/api/v1/login/usuario
 name: login/usuario
@@ -10,13 +10,9 @@ method: POST
 body:
   mimeType: ""
   text: |-
-    {
-        "fullName":"Diana Jackeline Rodríguez González",
+    {    
         "email":"diana.rodriguezg@habitatbogota.gov.co",
-        "password":"12345678",
-        "empresa":"Habitat",
-        "roles": ["637d0bd3bb9fdf65a8a08c9a"],
-        "verified":true
+        "password":"********"   
     }
 parameters: []
 headers:

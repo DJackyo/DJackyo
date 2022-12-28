@@ -1,9 +1,9 @@
 _id: req_d35c687aeefc4abeb1244da3be9c2f7c
 type: Request
 parentId: fld_6f2995a5e3f243f0bdb3e083e2d0e62d
-modified: 1670436544266
+modified: 1672239842135
 created: 1670436544266
-url: localhost:8080/megamenu/listByRole
+url: "{{ _.prot }}://{{ _.host }}/megamenu/listByRole"
 name: megamenu/listByRole
 description: ""
 method: GET
@@ -20,6 +20,15 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_d0620e4dd79847e998dbd703ca84ed1f
+  - id: pair_483fbbf9e49d411d8278884943d987de
+    name: Authorization
+    value: eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJDYXJ2YWphbCIsInN1YiI6IkpXVCBUb2tlbiIsInVzZXJuYW1lIjoiVGVyZXNhIE1lbmRvemEiLCJtYWlsIjoidGVyZXNhQGVtYWlsLmNvbSIsImlkVXNlciI6MywiaWRDb21wYW55IjoiMiIsImNvbXBhbnkiOiJDb21wYW55IDIiLCJpYXQiOjE2NzIyMzgxODEsImV4cCI6MTY3MjI2ODE4MX0.IlyaWDgYXGN1aerBcjG3uA_bj3P5tUFpUFbyrSGEh_s
+    description: ""
+  - id: pair_d58122307e0a4709b482b2d08aa8fe63
+    name: Credential
+    value: ""
+    description: ""
 authentication: {}
 metaSortKey: -1670436544266
 isPrivate: false

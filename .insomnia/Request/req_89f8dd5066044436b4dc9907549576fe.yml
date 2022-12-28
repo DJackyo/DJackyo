@@ -1,7 +1,7 @@
 _id: req_89f8dd5066044436b4dc9907549576fe
 type: Request
 parentId: fld_c3a7e2c4cac54ee3bd7b5a2866b55fce
-modified: 1670436514754
+modified: 1671501599544
 created: 1670436514754
 url: localhost:5000/api/v1/admin/usuarios/63852478b2d19c63e4fa552c
 name: /admin/users
@@ -9,7 +9,11 @@ description: ""
 method: DELETE
 body: {}
 parameters: []
-headers: []
+headers:
+  - id: pair_812ec5464ce44fb2bed00ff8a2e90b10
+    name: Authorization
+    value: 9572a622767ec1ec76095cadc4046ccba18a99da977c23639e2db938b1fa90cd0fc5e67ed0681dd7c199ebbd59b6deba834f2591dc5611c204346a7c8f06cfda9372d276eaf2f29a23a08b59269b83f55511d3b7c26283428abc35b4b11a72ac4290fbe17bf65b0cab7c39d6eed992f683d2327d3c0469bd56a1684b420744d7973a11cd820a2ea80feffaa5d3c63e7fdffb85314f44f37b83ab701466614928771df1f36ce96d427a0874550258d7d207231b05bcadc2d8336caa76b0e177973be473d44c3cf9cf16cf88722d8d46432b475f712038ad980bad29973b785bacbf1ec33d8267e9b8e6323054f7411fc488a2a88f6f64b81218e75c4aa8afa2fbbce15eb7c76d2e891dab8763becdadfa
+    description: ""
 authentication: {}
 metaSortKey: -1670436514754
 isPrivate: false

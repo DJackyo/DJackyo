@@ -1,15 +1,19 @@
 _id: req_43b9eb3a2e804667baefc166aeb124b7
 type: Request
 parentId: fld_6f2995a5e3f243f0bdb3e083e2d0e62d
-modified: 1670436544263
+modified: 1671226751511
 created: 1670436544263
-url: http://{{host}}:{{puerto}}/megamenu/listMicrositeMenuByRole/53
+url: "{{ _.prot }}://{{ _.host }}/megamenu/listMicrositeMenuByRole/53"
 name: megamenu/listByRole/{idMenu}
 description: ""
 method: GET
 body: {}
 parameters: []
-headers: []
+headers:
+  - id: pair_526f70a9c8044e359d150571716d2958
+    name: Authorization
+    value: eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJDYXJ2YWphbCIsInN1YiI6IkpXVCBUb2tlbiIsInVzZXJuYW1lIjoiVGVyZXNhIE1lbmRvemEiLCJtYWlsIjoidGVyZXNhQGVtYWlsLmNvbSIsImlkVXNlciI6MywiaWRDb21wYW55IjoiMSIsImNvbXBhbnkiOiJDb21wYW55IDEiLCJpYXQiOjE2NzEyMDQyNzksImV4cCI6MTY3MTIzNDI3OX0.BEleP-0a_irTGv_DYQ7AQg51Sy3J-5li-C9SgAUIjLg
+    description: ""
 authentication: {}
 metaSortKey: -1670436544263
 isPrivate: false

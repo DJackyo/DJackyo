@@ -1,7 +1,7 @@
 _id: req_4b774396fa9d4b31b8e7cb50de75cc8e
 type: Request
-parentId: fld_47702af6c94a4787918e494515b49f4c
-modified: 1670970548711
+parentId: fld_c6aba413e2df4db5aba021ec406443eb
+modified: 1671203221060
 created: 1670436544190
 url: "{{ _.prot }}://{{ _.host }}/credential/validate"
 name: http://{{host}}:{{puerto}}/credential/validate
@@ -24,7 +24,7 @@ headers:
     value: dfgdfgdf
     description: ""
 authentication: {}
-metaSortKey: -1670436544190
+metaSortKey: -1670436544208.125
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

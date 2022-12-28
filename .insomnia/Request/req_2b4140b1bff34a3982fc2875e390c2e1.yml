@@ -1,7 +1,7 @@
 _id: req_2b4140b1bff34a3982fc2875e390c2e1
 type: Request
-parentId: fld_47702af6c94a4787918e494515b49f4c
-modified: 1670970485453
+parentId: fld_c6aba413e2df4db5aba021ec406443eb
+modified: 1671203216209
 created: 1670436544201
 url: "{{ _.prot }}://{{ _.host }}/credential/validate"
 name: credential/validate -> Login
@@ -22,7 +22,7 @@ headers:
     value: application/json
     id: pair_53fa3db2ef8a46869ee376aa9790b091
 authentication: {}
-metaSortKey: -1670436544201
+metaSortKey: -1670436544255
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

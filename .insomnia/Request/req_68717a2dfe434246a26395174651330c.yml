@@ -1,9 +1,9 @@
 _id: req_68717a2dfe434246a26395174651330c
 type: Request
 parentId: fld_c5cda37de3494a209fa9a18e8dc6d75e
-modified: 1671034422545
+modified: 1672070173851
 created: 1670436544218
-url: "{{ _.prot }}://{{ _.host }}/option/listProductOptionsByCompany/3"
+url: "{{ _.prot }}://{{ _.host }}/option/listProductOptionsByCompany/1"
 name: /listProductOptionsByCompany/{idCompany}
 description: ""
 method: GET

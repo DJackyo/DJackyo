@@ -1,30 +1,30 @@
-_id: req_f540da1d4f3746a2b374d3d64dcf1460
+_id: req_73e0c0cf52094248ba4b0dd1f93f2e93
 type: Request
-parentId: fld_1ba6e07cf03147f79575cc1c1e0ed634
-modified: 1671509265848
-created: 1670436514734
-url: localhost:5000/api/v1/admin/dependencia
-name: /admin/dependencia
+parentId: fld_911fec4a7cc14c08a070016c08b223f5
+modified: 1671502617464
+created: 1671502613482
+url: localhost:5000/api/v1/admin/general/permiso
+name: /admin/general/permiso
 description: ""
-method: POST
+method: PUT
 body:
   mimeType: application/json
   text: |-
-    {    
-        "seqDependencia": 1000,
-        "txtDependencia": "10000"
+    {
+    	"txtPermiso":"Permiso1",
+    	"txtDescripcion":"txtDescripcion"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_b4054714b8ad4b6eb545d160c86e9537
-  - id: pair_f48ac18893174a0991fed671c45b0bc9
+    id: pair_96d30611a870477dbe6ef3bffc7ebf3b
+  - id: pair_ddf71ef14b6c4f53962c2c61b21a9fe2
     name: Authorization
     value: 9572a622767ec1ec76095cadc4046ccba18a99da977c23639e2db938b1fa90cd0fc5e67ed0681dd7c199ebbd59b6deba834f2591dc5611c204346a7c8f06cfda9372d276eaf2f29a23a08b59269b83f55511d3b7c26283428abc35b4b11a72ac4290fbe17bf65b0cab7c39d6eed992f683d2327d3c0469bd56a1684b420744d7973a11cd820a2ea80feffaa5d3c63e7fdffb85314f44f37b83ab701466614928771df1f36ce96d427a0874550258d7d207231b05bcadc2d8336caa76b0e177973be473d44c3cf9cf16cf88722d8d46432b475f712038ad980bad29973b785bacbf1ec33d8267e9b8e6323054f7411fc488a2a88f6f64b81218e75c4aa8afa2fbbce15eb7c76d2e891dab8763becdadfa
     description: ""
 authentication: {}
-metaSortKey: -1670436514734
+metaSortKey: -1670702939702.75
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
