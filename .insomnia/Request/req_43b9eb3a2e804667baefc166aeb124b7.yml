@@ -1,7 +1,7 @@
 _id: req_43b9eb3a2e804667baefc166aeb124b7
 type: Request
 parentId: fld_6f2995a5e3f243f0bdb3e083e2d0e62d
-modified: 1671226751511
+modified: 1672424990018
 created: 1670436544263
 url: "{{ _.prot }}://{{ _.host }}/megamenu/listMicrositeMenuByRole/53"
 name: megamenu/listByRole/{idMenu}
@@ -12,7 +12,7 @@ parameters: []
 headers:
   - id: pair_526f70a9c8044e359d150571716d2958
     name: Authorization
-    value: eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJDYXJ2YWphbCIsInN1YiI6IkpXVCBUb2tlbiIsInVzZXJuYW1lIjoiVGVyZXNhIE1lbmRvemEiLCJtYWlsIjoidGVyZXNhQGVtYWlsLmNvbSIsImlkVXNlciI6MywiaWRDb21wYW55IjoiMSIsImNvbXBhbnkiOiJDb21wYW55IDEiLCJpYXQiOjE2NzEyMDQyNzksImV4cCI6MTY3MTIzNDI3OX0.BEleP-0a_irTGv_DYQ7AQg51Sy3J-5li-C9SgAUIjLg
+    value: eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJDYXJ2YWphbCIsInN1YiI6IkpXVCBUb2tlbiIsInVzZXJuYW1lIjoiVGVyZXNhIE1lbmRvemEiLCJtYWlsIjoidGVyZXNhQGVtYWlsLmNvbSIsImlkVXNlciI6MywiaWRVc2VyVHlwZSI6MSwiaWRDb21wYW55IjoiMiIsImNvbXBhbnkiOiJDb21wYW55IDIiLCJidXNpbmVzc0dyb3VwIjo0LCJpYXQiOjE2NzI0MTkwNDMsImV4cCI6MTY3MjQ0OTA0M30.4obcSulcFB7Civ5R5zsHtYXbonLG34i0H2FSLspVLYQ
     description: ""
 authentication: {}
 metaSortKey: -1670436544263

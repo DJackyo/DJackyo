@@ -1,7 +1,7 @@
 _id: req_f8620b8e27f44eb384db708580c4cd73
 type: Request
 parentId: fld_c5cda37de3494a209fa9a18e8dc6d75e
-modified: 1670970432364
+modified: 1672419320177
 created: 1670436544221
 url: "{{ _.prot }}://{{ _.host }}/module/listar"
 name: module/listar -> Listar productos
@@ -9,7 +9,11 @@ description: ""
 method: GET
 body: {}
 parameters: []
-headers: []
+headers:
+  - id: pair_cc7160cb20a647d88b0271033eae4e1c
+    name: Authorization
+    value: eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJDYXJ2YWphbCIsInN1YiI6IkpXVCBUb2tlbiIsInVzZXJuYW1lIjoiVGVyZXNhIE1lbmRvemEiLCJtYWlsIjoidGVyZXNhQGVtYWlsLmNvbSIsImlkVXNlciI6MywiaWRVc2VyVHlwZSI6MSwiaWRDb21wYW55IjoiMiIsImNvbXBhbnkiOiJDb21wYW55IDIiLCJidXNpbmVzc0dyb3VwIjo0LCJpYXQiOjE2NzI0MTkwNDMsImV4cCI6MTY3MjQ0OTA0M30.4obcSulcFB7Civ5R5zsHtYXbonLG34i0H2FSLspVLYQ
+    description: ""
 authentication: {}
 metaSortKey: -1670436544221
 isPrivate: false

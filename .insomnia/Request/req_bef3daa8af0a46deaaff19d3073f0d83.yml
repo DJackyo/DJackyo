@@ -1,7 +1,7 @@
 _id: req_bef3daa8af0a46deaaff19d3073f0d83
 type: Request
 parentId: fld_e6bd2d2d98884f638e65f6e70c92ec44
-modified: 1671662095469
+modified: 1672419112504
 created: 1670436544226
 url: "{{ _.prot }}://{{ _.host }}/role/save/rolePermission"
 name: save/rolePermission - Miguel
@@ -658,7 +658,12 @@ headers:
     id: pair_efd9b02e0c484c4b8ea9c72c23f147c3
   - id: pair_34695a40f28447a093acdb768c6e0706
     name: Authorization
-    value: eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJDYXJ2YWphbCIsInN1YiI6IkpXVCBUb2tlbiIsInVzZXJuYW1lIjoiVGVyZXNhIE1lbmRvemEiLCJtYWlsIjoidGVyZXNhQGVtYWlsLmNvbSIsImlkVXNlciI6MywiaWRDb21wYW55IjoiMSIsImNvbXBhbnkiOiJDb21wYW55IDEiLCJpYXQiOjE2NzE2NjEzNzgsImV4cCI6MTY3MTY5MTM3OH0.67IRfWD2hDY0hz6Dzsr9e2bbco_nUCk-40PEdjkGdSY
+    value: eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJDYXJ2YWphbCIsInN1YiI6IkpXVCBUb2tlbiIsInVzZXJuYW1lIjoiVGVyZXNhIE1lbmRvemEiLCJtYWlsIjoidGVyZXNhQGVtYWlsLmNvbSIsImlkVXNlciI6MywiaWRVc2VyVHlwZSI6MSwiaWRDb21wYW55IjoiMiIsImNvbXBhbnkiOiJDb21wYW55IDIiLCJidXNpbmVzc0dyb3VwIjo0LCJpYXQiOjE2NzI0MTkwNDMsImV4cCI6MTY3MjQ0OTA0M30.4obcSulcFB7Civ5R5zsHtYXbonLG34i0H2FSLspVLYQ
+    description: ""
+    disabled: false
+  - id: pair_fed09e389bf94e778af8de78a2cea58d
+    name: ""
+    value: ""
     description: ""
 authentication: {}
 metaSortKey: -1670436544226

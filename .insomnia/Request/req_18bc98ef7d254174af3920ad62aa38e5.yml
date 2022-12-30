@@ -1,17 +1,17 @@
 _id: req_18bc98ef7d254174af3920ad62aa38e5
 type: Request
 parentId: fld_e6bd2d2d98884f638e65f6e70c92ec44
-modified: 1671140163301
+modified: 1672422099927
 created: 1670436544230
 url: "{{ _.prot }}://{{ _.host }}/role/save/rolePermission"
 name: save/rolePermission - Miguel
 description: ""
 method: POST
 body:
-  mimeType: ""
+  mimeType: application/json
   text: |-
     {
-        "roleId": "34",
+        "roleId": "101",
         "roleOptions": [
             {
                 "idOption": 131,
@@ -656,6 +656,11 @@ headers:
   - name: Content-Type
     value: application/json
     id: pair_aacfe416cde542e1aa195fdb266968bc
+  - id: pair_ded43a0f15e74ff8ba41da7c0527f5e2
+    name: Authorization
+    value: eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJDYXJ2YWphbCIsInN1YiI6IkpXVCBUb2tlbiIsInVzZXJuYW1lIjoiVGVyZXNhIE1lbmRvemEiLCJtYWlsIjoidGVyZXNhQGVtYWlsLmNvbSIsImlkVXNlciI6MywiaWRVc2VyVHlwZSI6MSwiaWRDb21wYW55IjoiMiIsImNvbXBhbnkiOiJDb21wYW55IDIiLCJidXNpbmVzc0dyb3VwIjo0LCJpYXQiOjE2NzI0MTkwNDMsImV4cCI6MTY3MjQ0OTA0M30.4obcSulcFB7Civ5R5zsHtYXbonLG34i0H2FSLspVLYQ
+    description: ""
+    disabled: false
 authentication: {}
 metaSortKey: -1670436544230
 isPrivate: false

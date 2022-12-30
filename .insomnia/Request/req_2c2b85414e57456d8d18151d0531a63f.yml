@@ -1,0 +1,34 @@
+_id: req_2c2b85414e57456d8d18151d0531a63f
+type: Request
+parentId: fld_47702af6c94a4787918e494515b49f4c
+modified: 1672425417206
+created: 1672335091567
+url: "{{ _.prot }}://{{ _.host }}/credential/signOff/es"
+name: /credential/signOff - Miguel
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "userName": "teresa@email.com",
+        "password": "MTIzNDU="
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_632a2b87c66b48128d2954171a4b66c5
+  - id: pair_76d3b84c235d4152a9b3a65d99a1ea05
+    name: Authorization
+    value: eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJDYXJ2YWphbCIsInN1YiI6IkpXVCBUb2tlbiIsInVzZXJuYW1lIjoiVGVyZXNhIE1lbmRvemEiLCJtYWlsIjoidGVyZXNhQGVtYWlsLmNvbSIsImlkVXNlciI6MywiaWRVc2VyVHlwZSI6MSwiaWRDb21wYW55IjoiMiIsImNvbXBhbnkiOiJDb21wYW55IDIiLCJidXNpbmVzc0dyb3VwIjo0LCJpYXQiOjE2NzIzMjY1NzIsImV4cCI6MTY3MjM1NjU3Mn0.pRqjt_rPUvNLw5aftzptfvrNbibsEgyfKpgZbTVHfRY
+    description: ""
+authentication: {}
+metaSortKey: -1670436544185
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

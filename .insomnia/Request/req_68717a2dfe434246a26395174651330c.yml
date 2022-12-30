@@ -1,7 +1,7 @@
 _id: req_68717a2dfe434246a26395174651330c
 type: Request
 parentId: fld_c5cda37de3494a209fa9a18e8dc6d75e
-modified: 1672070173851
+modified: 1672419337113
 created: 1670436544218
 url: "{{ _.prot }}://{{ _.host }}/option/listProductOptionsByCompany/1"
 name: /listProductOptionsByCompany/{idCompany}
@@ -9,7 +9,11 @@ description: ""
 method: GET
 body: {}
 parameters: []
-headers: []
+headers:
+  - id: pair_ad88601f51874fbfa17e8260f46bdf93
+    name: Authorization
+    value: eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJDYXJ2YWphbCIsInN1YiI6IkpXVCBUb2tlbiIsInVzZXJuYW1lIjoiVGVyZXNhIE1lbmRvemEiLCJtYWlsIjoidGVyZXNhQGVtYWlsLmNvbSIsImlkVXNlciI6MywiaWRVc2VyVHlwZSI6MSwiaWRDb21wYW55IjoiMiIsImNvbXBhbnkiOiJDb21wYW55IDIiLCJidXNpbmVzc0dyb3VwIjo0LCJpYXQiOjE2NzI0MTkwNDMsImV4cCI6MTY3MjQ0OTA0M30.4obcSulcFB7Civ5R5zsHtYXbonLG34i0H2FSLspVLYQ
+    description: ""
 authentication: {}
 metaSortKey: -1670436544218
 isPrivate: false

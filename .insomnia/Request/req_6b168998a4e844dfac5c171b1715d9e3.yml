@@ -1,10 +1,10 @@
-_id: req_de40ecc47a92431b87bbc66054374489
+_id: req_6b168998a4e844dfac5c171b1715d9e3
 type: Request
 parentId: fld_77c5c4c5fcfe445981fc0b9e10c53ab0
-modified: 1672425569519
-created: 1670436544182
-url: "{{ _.prot }}://{{ _.host }}/businessGroup/listar"
-name: /businessgroup/listar - Carlos
+modified: 1672425588045
+created: 1672421831029
+url: "{{ _.prot }}://{{ _.host }}/businessGroup/listar/1"
+name: /businessgroup/listar/{id} - Carlos
 description: ""
 method: POST
 body:
@@ -24,7 +24,7 @@ headers:
     value: application/json
     id: pair_99e42f0e3846400d9b96c33ce2403c44
 authentication: {}
-metaSortKey: -1670436544182
+metaSortKey: -1670436544180
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

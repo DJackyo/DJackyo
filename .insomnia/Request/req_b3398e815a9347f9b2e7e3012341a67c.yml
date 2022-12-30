@@ -1,7 +1,7 @@
 _id: req_b3398e815a9347f9b2e7e3012341a67c
 type: Request
 parentId: fld_f452de7663f74d4584914529e7aac1e6
-modified: 1670970378576
+modified: 1672419204788
 created: 1670436544247
 url: "{{ _.prot }}://{{ _.host }}/role/listInternalRoles"
 name: /role/listInternalRoles
@@ -12,7 +12,7 @@ parameters: []
 headers:
   - id: pair_87a3a9fc74cb47f9a070c7d17fc50a75
     name: Authorization
-    value: eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJDYXJ2YWphbCIsInN1YiI6IkpXVCBUb2tlbiIsInVzZXJuYW1lIjoiVGVyZXNhIE1lbmRvemEiLCJtYWlsIjoidGVyZXNhQGVtYWlsLmNvbSIsImlkVXNlciI6MywiaWRDb21wYW55IjoiMSIsImNvbXBhbnkiOiJDb21wYW55IDEiLCJpYXQiOjE2NzA5NDAxNjAsImV4cCI6MTY3MDk3MDE2MH0.YQKLFvYRod7vMhWKNPpQCtDAh6vKP4f7ZeHWLBLyaX4
+    value: eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJDYXJ2YWphbCIsInN1YiI6IkpXVCBUb2tlbiIsInVzZXJuYW1lIjoiVGVyZXNhIE1lbmRvemEiLCJtYWlsIjoidGVyZXNhQGVtYWlsLmNvbSIsImlkVXNlciI6MywiaWRVc2VyVHlwZSI6MSwiaWRDb21wYW55IjoiMiIsImNvbXBhbnkiOiJDb21wYW55IDIiLCJidXNpbmVzc0dyb3VwIjo0LCJpYXQiOjE2NzI0MTkwNDMsImV4cCI6MTY3MjQ0OTA0M30.4obcSulcFB7Civ5R5zsHtYXbonLG34i0H2FSLspVLYQ
     description: ""
 authentication: {}
 metaSortKey: -1670436544247

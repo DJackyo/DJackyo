@@ -1,7 +1,7 @@
 _id: req_2b4140b1bff34a3982fc2875e390c2e1
 type: Request
 parentId: fld_c6aba413e2df4db5aba021ec406443eb
-modified: 1671203216209
+modified: 1672419391500
 created: 1670436544201
 url: "{{ _.prot }}://{{ _.host }}/credential/validate"
 name: credential/validate -> Login
@@ -21,6 +21,10 @@ headers:
   - name: Content-Type
     value: application/json
     id: pair_53fa3db2ef8a46869ee376aa9790b091
+  - id: pair_1a8dcb6695314580a292883a85867e06
+    name: Authorization
+    value: eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJDYXJ2YWphbCIsInN1YiI6IkpXVCBUb2tlbiIsInVzZXJuYW1lIjoiVGVyZXNhIE1lbmRvemEiLCJtYWlsIjoidGVyZXNhQGVtYWlsLmNvbSIsImlkVXNlciI6MywiaWRVc2VyVHlwZSI6MSwiaWRDb21wYW55IjoiMiIsImNvbXBhbnkiOiJDb21wYW55IDIiLCJidXNpbmVzc0dyb3VwIjo0LCJpYXQiOjE2NzI0MTkwNDMsImV4cCI6MTY3MjQ0OTA0M30.4obcSulcFB7Civ5R5zsHtYXbonLG34i0H2FSLspVLYQ
+    description: ""
 authentication: {}
 metaSortKey: -1670436544255
 isPrivate: false

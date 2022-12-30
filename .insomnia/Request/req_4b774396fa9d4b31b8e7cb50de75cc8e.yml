@@ -1,10 +1,10 @@
 _id: req_4b774396fa9d4b31b8e7cb50de75cc8e
 type: Request
 parentId: fld_c6aba413e2df4db5aba021ec406443eb
-modified: 1671203221060
+modified: 1672422759412
 created: 1670436544190
 url: "{{ _.prot }}://{{ _.host }}/credential/validate"
-name: http://{{host}}:{{puerto}}/credential/validate
+name: credential/validate
 description: ""
 method: POST
 body:
@@ -21,10 +21,10 @@ headers:
     id: pair_293667c3f1b04accaafa925519d48b90
   - id: pair_763641cb69ed43ae898a66cbce1866b4
     name: Authorization
-    value: dfgdfgdf
+    value: eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJDYXJ2YWphbCIsInN1YiI6IkpXVCBUb2tlbiIsInVzZXJuYW1lIjoiVGVyZXNhIE1lbmRvemEiLCJtYWlsIjoidGVyZXNhQGVtYWlsLmNvbSIsImlkVXNlciI6MywiaWRVc2VyVHlwZSI6MSwiaWRDb21wYW55IjoiMiIsImNvbXBhbnkiOiJDb21wYW55IDIiLCJidXNpbmVzc0dyb3VwIjo0LCJpYXQiOjE2NzI0MTkwNDMsImV4cCI6MTY3MjQ0OTA0M30.4obcSulcFB7Civ5R5zsHtYXbonLG34i0H2FSLspVLYQ
     description: ""
 authentication: {}
-metaSortKey: -1670436544208.125
+metaSortKey: -1670436544242.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

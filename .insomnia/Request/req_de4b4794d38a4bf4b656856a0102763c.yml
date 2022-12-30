@@ -1,15 +1,67 @@
 _id: req_de4b4794d38a4bf4b656856a0102763c
 type: Request
 parentId: fld_c6aba413e2df4db5aba021ec406443eb
-modified: 1671203217339
+modified: 1672419403990
 created: 1670436544197
 url: "{{ _.prot }}://{{ _.host }}/usuario/validateActive/teresa@email.com"
 name: usuario/validateActive -> Login
 description: ""
 method: GET
-body: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	label: 'ADMINISTRACIÓN',
+    	badge: '3.',
+    	items: [
+    		{
+    			id: 51,
+    			label: 'AdministraciónPortalCEN',
+    			badge: '3.1.',
+    			items: [
+    				{
+    					id: 52,
+    					label: 'OpcionesdeMenu',
+    					badge: '3.1.1.',
+    					items: [],
+    					styleClass: 'opciones-de-menu',
+    				},
+    				{
+    					id: 53,
+    					label: 'Roles',
+    					badge: '3.1.2.',
+    					items: [],
+    					styleClass: 'roles',
+    				},
+    				{
+    					id: 54,
+    					label: 'Rolesporempresa',
+    					badge: '3.1.3.',
+    					items: [],
+    					styleClass: 'roles-por-empresa',
+    				},
+    				{
+    					id: 55,
+    					label: 'Usuarios',
+    					badge: '3.1.4.',
+    					items: [],
+    					styleClass: 'usuarios',
+    				},
+    			],
+    			styleClass: 'administración-portal-cen',
+    		},
+    	],
+    	styleClass: 'administración',
+    };
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_6c144bfd44b34ecd82ffa07205113411
+  - id: pair_06750b3d20d84b098479b66bab276c79
+    name: Authorization
+    value: eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJDYXJ2YWphbCIsInN1YiI6IkpXVCBUb2tlbiIsInVzZXJuYW1lIjoiVGVyZXNhIE1lbmRvemEiLCJtYWlsIjoidGVyZXNhQGVtYWlsLmNvbSIsImlkVXNlciI6MywiaWRVc2VyVHlwZSI6MSwiaWRDb21wYW55IjoiMiIsImNvbXBhbnkiOiJDb21wYW55IDIiLCJidXNpbmVzc0dyb3VwIjo0LCJpYXQiOjE2NzI0MTkwNDMsImV4cCI6MTY3MjQ0OTA0M30.4obcSulcFB7Civ5R5zsHtYXbonLG34i0H2FSLspVLYQ
+    description: ""
 authentication: {}
 metaSortKey: -1670436544230
 isPrivate: false

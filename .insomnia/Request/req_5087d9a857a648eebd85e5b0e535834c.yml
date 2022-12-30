@@ -1,7 +1,7 @@
 _id: req_5087d9a857a648eebd85e5b0e535834c
 type: Request
 parentId: fld_c5cda37de3494a209fa9a18e8dc6d75e
-modified: 1671140157781
+modified: 1672419361026
 created: 1670436544211
 url: "{{ _.prot }}://{{ _.host }}/option/listRolePermissions/33"
 name: /option/listRolePermissions/{idRole}
@@ -22,7 +22,7 @@ headers:
     id: pair_f55babc1a6bb4007a0a08b2525975f8a
   - id: pair_9e5d7b6c432e4053a836473700678e38
     name: Authorization
-    value: eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJDYXJ2YWphbCIsInN1YiI6IkpXVCBUb2tlbiIsInVzZXJuYW1lIjoiVGVyZXNhIE1lbmRvemEiLCJtYWlsIjoidGVyZXNhQGVtYWlsLmNvbSIsImlkVXNlciI6MywiaWRDb21wYW55IjoiMSIsImNvbXBhbnkiOiJDb21wYW55IDEiLCJpYXQiOjE2NzExMzIyNDUsImV4cCI6MTY3MTE2MjI0NX0.LLehYpDwIX_xBAgXkjQQ02EElJ0AmlVeynTTfbdKBA0
+    value: eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJDYXJ2YWphbCIsInN1YiI6IkpXVCBUb2tlbiIsInVzZXJuYW1lIjoiVGVyZXNhIE1lbmRvemEiLCJtYWlsIjoidGVyZXNhQGVtYWlsLmNvbSIsImlkVXNlciI6MywiaWRVc2VyVHlwZSI6MSwiaWRDb21wYW55IjoiMiIsImNvbXBhbnkiOiJDb21wYW55IDIiLCJidXNpbmVzc0dyb3VwIjo0LCJpYXQiOjE2NzI0MTkwNDMsImV4cCI6MTY3MjQ0OTA0M30.4obcSulcFB7Civ5R5zsHtYXbonLG34i0H2FSLspVLYQ
     description: ""
 authentication: {}
 metaSortKey: -1670436544211

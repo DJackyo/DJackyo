@@ -1,7 +1,7 @@
 _id: req_de754225daf04825a19682b8c6367fce
 type: Request
 parentId: fld_c6aba413e2df4db5aba021ec406443eb
-modified: 1671203214573
+modified: 1672419510438
 created: 1670436544205
 url: "{{ _.prot }}://{{ _.host }}/userType/listar"
 name: userType/listar -> Listar tipo usuario
@@ -9,7 +9,11 @@ description: ""
 method: GET
 body: {}
 parameters: []
-headers: []
+headers:
+  - id: pair_8040018844cb4351b17fb6d1c3fc14b1
+    name: Authorization
+    value: eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJDYXJ2YWphbCIsInN1YiI6IkpXVCBUb2tlbiIsInVzZXJuYW1lIjoiVGVyZXNhIE1lbmRvemEiLCJtYWlsIjoidGVyZXNhQGVtYWlsLmNvbSIsImlkVXNlciI6MywiaWRVc2VyVHlwZSI6MSwiaWRDb21wYW55IjoiMiIsImNvbXBhbnkiOiJDb21wYW55IDIiLCJidXNpbmVzc0dyb3VwIjo0LCJpYXQiOjE2NzI0MTkwNDMsImV4cCI6MTY3MjQ0OTA0M30.4obcSulcFB7Civ5R5zsHtYXbonLG34i0H2FSLspVLYQ
+    description: ""
 authentication: {}
 metaSortKey: -1670436544205
 isPrivate: false

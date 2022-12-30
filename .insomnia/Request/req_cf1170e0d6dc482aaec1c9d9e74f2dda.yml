@@ -1,7 +1,7 @@
 _id: req_cf1170e0d6dc482aaec1c9d9e74f2dda
 type: Request
 parentId: fld_c6aba413e2df4db5aba021ec406443eb
-modified: 1671203218908
+modified: 1672419414967
 created: 1670436544194
 url: "{{ _.prot }}://{{ _.host }}/usuario/buscarEmail/teresa@email.com"
 name: usuario/buscarEmail ->Login
@@ -9,7 +9,11 @@ description: ""
 method: GET
 body: {}
 parameters: []
-headers: []
+headers:
+  - id: pair_0bca56eabef8435a8df9d23cb7169528
+    name: Authorization
+    value: eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJDYXJ2YWphbCIsInN1YiI6IkpXVCBUb2tlbiIsInVzZXJuYW1lIjoiVGVyZXNhIE1lbmRvemEiLCJtYWlsIjoidGVyZXNhQGVtYWlsLmNvbSIsImlkVXNlciI6MywiaWRVc2VyVHlwZSI6MSwiaWRDb21wYW55IjoiMiIsImNvbXBhbnkiOiJDb21wYW55IDIiLCJidXNpbmVzc0dyb3VwIjo0LCJpYXQiOjE2NzI0MTkwNDMsImV4cCI6MTY3MjQ0OTA0M30.4obcSulcFB7Civ5R5zsHtYXbonLG34i0H2FSLspVLYQ
+    description: ""
 authentication: {}
 metaSortKey: -1670436544217.5
 isPrivate: false

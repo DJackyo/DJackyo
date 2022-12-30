@@ -1,7 +1,7 @@
 _id: req_d191af52149a4d7fa543db0073692761
 type: Request
 parentId: fld_f452de7663f74d4584914529e7aac1e6
-modified: 1670970394952
+modified: 1672419221827
 created: 1670436544241
 url: "{{ _.prot }}://{{ _.host }}/role/deleteRole/33"
 name: role/deleteRole/id
@@ -9,7 +9,11 @@ description: ""
 method: DELETE
 body: {}
 parameters: []
-headers: []
+headers:
+  - id: pair_ed792fa9cc9e499daad1289f7072af75
+    name: Authorization
+    value: eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJDYXJ2YWphbCIsInN1YiI6IkpXVCBUb2tlbiIsInVzZXJuYW1lIjoiVGVyZXNhIE1lbmRvemEiLCJtYWlsIjoidGVyZXNhQGVtYWlsLmNvbSIsImlkVXNlciI6MywiaWRVc2VyVHlwZSI6MSwiaWRDb21wYW55IjoiMiIsImNvbXBhbnkiOiJDb21wYW55IDIiLCJidXNpbmVzc0dyb3VwIjo0LCJpYXQiOjE2NzI0MTkwNDMsImV4cCI6MTY3MjQ0OTA0M30.4obcSulcFB7Civ5R5zsHtYXbonLG34i0H2FSLspVLYQ
+    description: ""
 authentication: {}
 metaSortKey: -1670436544241
 isPrivate: false

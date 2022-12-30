@@ -1,7 +1,7 @@
 _id: req_09f75280b46f4c1b8fa0412781bb63c3
 type: Request
 parentId: fld_f452de7663f74d4584914529e7aac1e6
-modified: 1671661350255
+modified: 1672419246422
 created: 1670436544239
 url: "{{ _.prot }}://{{ _.host }}/role/save"
 name: role/save - Carlos
@@ -26,8 +26,9 @@ headers:
     id: pair_50a0e731d9754a74be376f3c4fa2cb2e
   - id: pair_99803ff465db48508189275c609e6a45
     name: Authorization
-    value: eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJDYXJ2YWphbCIsInN1YiI6IkpXVCBUb2tlbiIsInVzZXJuYW1lIjoiVGVyZXNhIE1lbmRvemEiLCJtYWlsIjoidGVyZXNhQGVtYWlsLmNvbSIsImlkVXNlciI6MywiaWRVc2VyVHlwZSI6MiwiaWRDb21wYW55IjoiMSIsImNvbXBhbnkiOiJDb21wYW55IDEiLCJpYXQiOjE2NzE1NTI0NDIsImV4cCI6MTY3MTU4MjQ0Mn0.TndKjmSZdZXgdYRgSZCkUK6cQH6-Fx_0dyrHUXzhjCY
+    value: eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJDYXJ2YWphbCIsInN1YiI6IkpXVCBUb2tlbiIsInVzZXJuYW1lIjoiVGVyZXNhIE1lbmRvemEiLCJtYWlsIjoidGVyZXNhQGVtYWlsLmNvbSIsImlkVXNlciI6MywiaWRVc2VyVHlwZSI6MSwiaWRDb21wYW55IjoiMiIsImNvbXBhbnkiOiJDb21wYW55IDIiLCJidXNpbmVzc0dyb3VwIjo0LCJpYXQiOjE2NzI0MTkwNDMsImV4cCI6MTY3MjQ0OTA0M30.4obcSulcFB7Civ5R5zsHtYXbonLG34i0H2FSLspVLYQ
     description: ""
+    disabled: false
 authentication: {}
 metaSortKey: -1670436544239
 isPrivate: false
